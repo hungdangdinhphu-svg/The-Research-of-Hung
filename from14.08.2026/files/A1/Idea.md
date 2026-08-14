@@ -18,7 +18,7 @@ $$\text{Expressions (Các biểu thức)} \xrightarrow{\text{Arithmetic Computat
 
 **Câu hỏi 2:**
 
-"Tại sao [sự phân rã vô hướng]()
+"Tại sao [sự phân rã vô hướng]() lại đang là [phổ biến]()? Theo tôi thứ bắt buộc cần thiết là [Relational Structure]() và [Total Ordering]() giữa các cấu trúc."
 
 
 
