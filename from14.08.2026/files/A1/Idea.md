@@ -8,6 +8,10 @@ Date (Completeness): ...
 
 ---
 
+Đọc phần Appendix để xem các giải thích về một số cụm từ/từ trong bài.
+
+---
+
 **Tôi gọi cái bên dưới là "Quy trình xử lý cổ điển" :**
 
 $$\text{Expressions (Các biểu thức)} \xrightarrow{\text{Arithmetic Computation}} \text{Scalar Values (Giá trị Vô hướng)}$$
