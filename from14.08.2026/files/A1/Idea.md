@@ -38,7 +38,7 @@ $$\text{Expressions (Các biểu thức)} \xrightarrow{\text{Arithmetic Computat
 
 Khả năng So sánh (Comparability): Bất kỳ hai biểu thức $A, B \in \mathbb{S}$ đều phải so sánh được thông qua một toán tử quan hệ [tương đương logic]() với $\{<, >, =\}$.
 
-Độ đo Khoảng cách Cấu trúc (Structural "Distance" / "Gap"): Tồn tại một hàm phản ánh "độ lệch" giữa hai biểu thức, hoạt động tương đương với khoảng cách vô hướng nhưng được định nghĩa trực tiếp trên đồ thị của biểu thức.
+Độ đo Khoảng cách Cấu trúc (Structural "Distance" / "Gap"): Tồn tại một cách phản ánh "độ lệch" giữa hai biểu thức, hoạt động tương đương với khoảng cách vô hướng nhưng được định nghĩa trực tiếp trên đồ thị của biểu thức.
 
 "Tính Thứ Tự Toàn Phần" ("Total Order"): Không gian này phải ánh xạ đẳng cấu (isomorphic) cấu trúc trật tự với tập số thực $\mathbb{R}$, đảm bảo tính nhất quán của kết quả so sánh.
 
