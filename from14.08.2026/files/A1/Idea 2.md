@@ -39,3 +39,9 @@ Có một lớp các bài toán ứng dụng đương đại mà ở đó, chún
 
 
 3. Tối ưu hóa COST_ALL trên hệ lớn (Amortized Cost Efficiency): Hình dáng không gian này phải đảm bảo rằng khi xét trên $N$ biểu thức (với $N \to \infty$), tổng chi phí COST_ALL để xếp hạng và xác định khoảng cách trên $\mathbb{S}$ nhỏ hơn nghiêm ngặt (strictly less than) tổng chi phí ALU theo chuẩn quy đổi Binary.
+
+# Computational Trade-Offs
+
+Cho phép: $N$ biểu thức chỉ được chứa các phép toán số học cơ bản $\{+, -, \times, \div\}$ và các số thực có độ chính xác hữu hạn (finite precision)
+
+Loại trừ: Mọi hàm siêu việt đều không được phép. (Richardson's Theorem - 1968)
