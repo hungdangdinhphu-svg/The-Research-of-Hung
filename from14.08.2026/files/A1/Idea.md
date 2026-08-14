@@ -31,6 +31,12 @@ $$\text{Expressions (Các biểu thức)} \xrightarrow{\text{Arithmetic Computat
 
 **Primary Hypothesis :** Có một lớp các bài toán ứng dụng đương đại mà ở đó, các giá trị vô hướng thực chất chỉ là "vật mang" (carrier) cho các thuộc tính quan hệ. Nếu chúng ta có thể trích xuất trực tiếp các quan hệ này từ cấu trúc của biểu thức, bước tính toán vô hướng truyền thống có thể trở nên dư thừa.
 
+Ý tưởng trung tâm là khám phá (và kiến tạo) một không gian toán học hình thức $\mathbb{S}$ (Structural Space) sao cho $N$ biểu thức ký hiệu duy trì được tính toàn vẹn cấu trúc (structural integrity) mà không cần ["suy"]() ra số vô hướng.
+
+
+Để không gian này có giá trị thực tiễn, nó phải thỏa mãn các tiên đề sau:
+
+Khả năng So sánh (Comparability): Bất kỳ hai biểu thức $A, B \in \mathbb{S}$ đều phải so sánh được thông qua một toán tử quan hệ [tương đương logic]() với $\{<, >, =\}$.
 
 
 
