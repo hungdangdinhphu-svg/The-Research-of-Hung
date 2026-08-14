@@ -1,6 +1,6 @@
 https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A1/Idea.md
 
-(vietnamese)
+(vietnamese & english)
 
 Authors: Hung Dinh Phu Dang
 
