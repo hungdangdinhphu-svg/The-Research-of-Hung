@@ -85,7 +85,9 @@ Ngược lại, hệ vô hướng/nhị phân (Scalar/Binary) chỉ cần khoả
 
 Hay : Chi phí [xử lý] tổng thể bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm. ([chi phí]())
 
+Unary giúp ta giảm chi phí [tính toán] triệt để (về lý thuyết là O(1)), nhưng đổi lại là chi phí liên quan đến bộ nhớ,...
 
+Còn Scalar/Binary thì giảm chi phí liên quan đến bộ nhớ,... nhưng lại tăng chi phí [tính toán].
 
 
 
