@@ -59,9 +59,19 @@ Cho phép: $N$ biểu thức chỉ được chứa các phép toán số học c
 
 Loại trừ: Mọi hàm siêu việt đều không được phép. (Richardson's Theorem - 1968)
 
+# Theoretical Dilemma: The Unary vs. Binary Clues
 
+Để hình dung về một không gian mà cấu trúc biểu thức lộ ra khoảng cách mà không cần tính toán, hãy xét Hệ Nhất Phân (Unary).
 
+Ví dụ con:
 
+Biểu thức $1 + 2 = B \rightarrow 111$.  
+
+Biểu thức $2 + 2 = B \rightarrow 1111$.
+
+Nên :
+
+i + j = B \rightarrow 111...1 (với i+j số "1")
 
 
 
