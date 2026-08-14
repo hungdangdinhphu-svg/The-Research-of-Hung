@@ -83,13 +83,13 @@ Hệ Unary đòi hỏi không gian bộ nhớ $O(V)$ (với $V$ là giá trị b
 
 Ngược lại, hệ vô hướng/nhị phân (Scalar/Binary) chỉ cần khoảng 20 bits và 1 chu kỳ xung nhịp CPU, dù phải trải qua bước quy đổi vô hướng mới có thể so sánh.
 
-Hay : Chi phí [xử lý] tổng thể (hay ["Tổng chi phí thực tế để thực hiện đã quy định"]()) và [Môi trường thực tế, thiết bị quy định]() bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm. ([chi phí]())
+Hay : Chi phí [xử lý]() tổng thể (hay ["Tổng chi phí thực tế để thực hiện đã quy định"]()) và [Môi trường thực tế, thiết bị quy định]() bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm. ([chi phí]())
 
-Tôi gọi : "Chi phí [xử lý] tổng thể (hay ["Tổng chi phí thực tế để thực hiện đã quy định"]()) và [Môi trường thực tế, thiết bị quy định]() bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm" là COST_ALL.
+Tôi gọi : "Chi phí [xử lý]() tổng thể (hay ["Tổng chi phí thực tế để thực hiện đã quy định"]()) và [Môi trường thực tế, thiết bị quy định]() bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm" là COST_ALL.
 
-Unary giúp ta giảm chi phí [tính toán] triệt để (về lý thuyết là O(1)), nhưng đổi lại là chi phí liên quan đến bộ nhớ,...
+Unary giúp ta giảm chi phí [tính toán]() triệt để (về lý thuyết là O(1)), nhưng đổi lại là chi phí liên quan đến bộ nhớ,...
 
-Còn Scalar/Binary thì giảm chi phí liên quan đến bộ nhớ,... nhưng lại tăng chi phí [tính toán].
+Còn Scalar/Binary thì giảm chi phí liên quan đến bộ nhớ,... nhưng lại tăng chi phí [tính toán]().
 
 **Vấn đề :** Phải tạo ra một nền tảng toán học giao thoa, vừa mang tính "đối chiếu cấu trúc hình học" ngay lập tức của Unary, nhưng nó phải khiến COST_ALL được giảm thực sự thông qua Redefining Computation, Hypothesis,... Có thể đây là một vấn đề được xem là "bất khả thi" hoặc "khả thi", vậy nếu ta sáng tạo thì sao?
 
