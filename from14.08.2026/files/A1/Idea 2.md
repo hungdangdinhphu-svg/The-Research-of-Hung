@@ -86,7 +86,6 @@ Hệ Unary đòi hỏi không gian bộ nhớ $O(V)$ (với $V$ là giá trị b
 
 Ngược lại, hệ vô hướng/nhị phân (Scalar/Binary) chỉ cần khoảng 20 bits và 1 chu kỳ xung nhịp CPU, dù phải trải qua bước quy đổi vô hướng mới có thể so sánh.
 
-Hay : Chi phí [xử lý]() tổng thể (hay ["Tổng chi phí thực tế để thực hiện đã quy định"]()) và [Môi trường thực tế, thiết bị quy định]() bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm. ([chi phí]())
 
 Tôi gọi : "Chi phí [xử lý]() tổng thể (hay ["Tổng chi phí thực tế để thực hiện đã quy định"]()) và [Môi trường thực tế, thiết bị quy định]() bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm" là COST_ALL.
 
