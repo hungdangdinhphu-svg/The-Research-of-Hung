@@ -25,7 +25,7 @@ $$\text{Expressions (Các biểu thức)} \xrightarrow{\text{Arithmetic Computat
 "Trong các hệ thống mà đích đến cuối cùng chỉ là xác định quan hệ thứ tự và khoảng cách giữa các phần tử, liệu việc ép buộc biểu thức [phân rã thành các giá trị vô hướng]() có thực sự là con đường tất yếu về mặt bản thể toán học?"
 
 
-
+**Primary Hypothesis :** Có một lớp các bài toán ứng dụng đương đại mà ở đó, các giá trị vô hướng thực chất chỉ là "vật mang" (carrier) cho các thuộc tính quan hệ. Nếu chúng ta có thể trích xuất trực tiếp các quan hệ này từ cấu trúc của biểu thức, bước tính toán vô hướng truyền thống có thể trở nên dư thừa.
 
 
 
