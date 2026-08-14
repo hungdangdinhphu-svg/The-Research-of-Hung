@@ -59,9 +59,9 @@ Cho phép: $N$ biểu thức chỉ được chứa các phép toán số học c
 
 Loại trừ: Mọi hàm siêu việt đều không được phép. (Richardson's Theorem - 1968)
 
-# Theoretical Dilemma: The Unary vs. Binary Clues
+# The Unary vs. Binary Clues
 
-Để hình dung về một không gian mà cấu trúc biểu thức lộ ra khoảng cách mà không cần tính toán, hãy xét Hệ Nhất Phân (Unary).
+Để hình dung về một không gian mà cấu trúc biểu thức lộ ra khoảng cách mà không cần [tính toán](), hãy xét Hệ Nhất Phân (Unary).
 
 Ví dụ con:
 
@@ -74,12 +74,16 @@ Nên :
 i + j = B \rightarrow 111...1 (với i+j số "1")
 
 
+Trong không gian Unary 1 chiều này, [tính toán]() cơ học (Computation) bị triệt tiêu hoàn toàn, nhường chỗ cho sự đối chiếu "Hình dáng" / Độ đo vật lý. Tuy nhiên, Unary bị bùng nổ không gian biểu diễn.
+
+Xét $C = 1000 \times 1000$ và $D = 10^6 + 1$.
+
+Hệ Unary đòi hỏi không gian bộ nhớ $O(V)$ (với $V$ là giá trị biểu thức), buộc máy tính tạo ra một chuỗi 1 triệu chữ số '1'. Quá trình giải nén (unroll) này biến thành một gánh nặng [xử lý]() khổng lồ.
 
 
+Ngược lại, hệ vô hướng/nhị phân (Scalar/Binary) chỉ cần khoảng 20 bits và 1 chu kỳ xung nhịp CPU, dù phải trải qua bước quy đổi vô hướng mới có thể so sánh.
 
-
-
-
+Hay : Chi phí [xử lý] tổng thể bao gồm cả chi phí [tính toán] và các chi phí đi khác đi kèm. ([chi phí]())
 
 
 
