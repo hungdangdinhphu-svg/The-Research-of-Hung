@@ -20,7 +20,9 @@ $$\text{Expressions (Các biểu thức)} \xrightarrow{\text{Arithmetic Computat
 
 "Tại sao [sự phân rã vô hướng]() lại đang là [phổ biến]()? Theo tôi thứ bắt buộc cần thiết là [Relational Structure]() và [Total Ordering]() giữa các cấu trúc."
 
+**Câu hỏi 3:**
 
+"Trong các hệ thống mà đích đến cuối cùng chỉ là xác định quan hệ thứ tự và khoảng cách giữa các phần tử, liệu việc ép buộc biểu thức [phân rã thành các giá trị vô hướng]() có thực sự là con đường tất yếu về mặt bản thể toán học?"
 
 
 
