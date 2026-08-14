@@ -42,7 +42,7 @@ Khả năng So sánh (Comparability): Bất kỳ hai biểu thức $A, B \in \ma
 
 "Tính Thứ Tự Toàn Phần" ("Total Order"): Không gian này phải ánh xạ đẳng cấu (isomorphic) cấu trúc trật tự với tập số thực $\mathbb{R}$, đảm bảo tính nhất quán của kết quả so sánh.
 
-Hình dáng không gian với ["Tổng chi phí thực tế để thực hiện đã quy định"] cho phép [lấy được thông tin]() về "khoảng cách" và "Comparability" trong [Môi trường thực tế, thiết bị quy định]().
+Hình dáng không gian với ["Tổng chi phí thực tế để thực hiện đã quy định"]() cho phép [lấy được thông tin]() về "khoảng cách" và "Comparability" trong [Môi trường thực tế, thiết bị quy định]().
 
 
 
