@@ -50,7 +50,7 @@ Hình dáng không gian với ["Tổng chi phí thực tế để thực hiện 
 
 # Redefining Computation
 
-
+Tôi không phát biểu một vấn đề mà kỳ vọng là loại bỏ hoàn toàn việc tính toán, nền tảng này hướng tới việc định nghĩa lại quá trình tính toán.
 
 
 
