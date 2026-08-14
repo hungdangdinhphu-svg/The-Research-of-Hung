@@ -50,7 +50,7 @@ Nói cách khác: có tồn tại một họ biểu thức, ngày càng lớn, m
 
 | "Distance"/"Gap" | Định nghĩa lại: $\text{dist}(A,B) := \text{CERT}(A,B)$ — không phải khoảng cách hình học trừu tượng, mà là **số bước rút gọn cây tối thiểu để phân định dấu của $A-B$**. Đại lượng này đo được, có đơn vị (số nút), và trùng khớp với trực giác "độ lệch cấu trúc" mà không cần một không gian $\mathbb{S}$ mới. |
 
-| Total Order / Decidability | Vì $\mathcal{E}$ giới hạn ở $\{+,-,\times,\div\}$ và số hữu tỉ hữu hạn (không có hàm siêu việt), bài toán "$A - B$ so với 0" là **khả định** (decidable) — đây là lý do Richardson's theorem xuất hiện đúng chỗ trong cả hai bản gốc của bạn. Tính khả định là điều kiện *cần* để CERT được định nghĩa tốt, không phải một tiên đề độc lập cần chứng minh thêm. |
+| Total Order / Decidability | Vì $\mathcal{E}$ giới hạn ở $\{+,-,\times,\div\}$ và số hữu tỉ hữu hạn (không có hàm siêu việt), bài toán "$A - B$ so với 0" là **khả định** (decidable); Tính khả định là điều kiện *cần* để CERT được định nghĩa tốt, không phải một tiên đề độc lập cần chứng minh thêm. |
 
 
 
