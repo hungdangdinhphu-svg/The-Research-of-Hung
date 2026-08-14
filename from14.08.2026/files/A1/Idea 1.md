@@ -44,7 +44,7 @@ Khả năng So sánh (Comparability): Bất kỳ hai biểu thức $A, B \in \ma
 
 Độ đo Khoảng cách Cấu trúc (Structural "Distance" / "Gap"): Tồn tại một cách phản ánh "độ lệch" giữa hai biểu thức, hoạt động tương đương với khoảng cách vô hướng nhưng được định nghĩa trực tiếp trên đồ thị của biểu thức.
 
-**ĐẶC BIỆT :** "Tính Thứ Tự Toàn Phần" ("Total Order"): Không gian này phải mạnh ngang ngửa với tập số thực $\mathbb{R}$, tuy nhiên nó không được mắc phải các vấn đề gây cản trở của tập R (Vì nếu nó là "đẳng cấu" với tập R, nó sẽ chắc chắn bất khả thi.), đảm bảo khả năng cho phép [lấy được thông tin]() về "khoảng cách".
+**ĐẶC BIỆT :** "Tính Thứ Tự Toàn Phần" ("Total Order"): Không gian này phải mạnh ngang ngửa với tập số thực $\mathbb{R}$, tuy nhiên nó không được mắc phải [các vấn đề gây cản trở của tập R mà tôi định nghĩa ở Appendix]() (Vì nếu nó là "đẳng cấu" với tập R, nó sẽ chắc chắn bất khả thi.), đảm bảo khả năng cho phép [lấy được thông tin]() về "khoảng cách".
 
 Hình dáng không gian với ["Tổng chi phí thực tế để thực hiện đã quy định"]() cho phép [lấy được thông tin]() về "khoảng cách" và "Comparability" trong [Môi trường thực tế, thiết bị quy định]().
 
