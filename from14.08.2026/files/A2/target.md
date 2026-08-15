@@ -2,5 +2,9 @@ Dựa trên A1 Project. Dự kiến thêm "References", "Appendix", và làm cho
 
 Về phần COST_ALL, đưa ra một phân khúc mô hình chi phí cụ thể thì hỗ trợ được. Nếu không có mô hình chi phí, không thể chứng minh "thấp hơn" hay "cao hơn".
 
+Định nghĩa Classical Baseline, Một hệ thống S mới chỉ được coi là 'tuyệt vời' nếu COST_ALL của nó giảm đáng kể.
+
+
+
 Phân tích rằng Major 1 và Major 2 thì cái Major 2 dễ hơn ở đâu.
 
