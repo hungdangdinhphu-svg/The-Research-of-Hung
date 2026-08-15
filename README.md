@@ -1,6 +1,9 @@
 # The-Research-of-Hung
 Hưng's Research
 
+The primary languages ​​I use in this document are Vietnamese & English.
+
+
 # Author
 
 Name : Hung Dinh Phu Dang (Đặng Đình Phú Hưng)
