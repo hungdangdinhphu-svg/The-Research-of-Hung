@@ -58,9 +58,20 @@ Tôi không phát biểu một vấn đề mà kỳ vọng là loại bỏ hoàn
 
 # Computational Trade-Offs
 
+**Trường hợp tổng quát:**
+
 Cho phép: $N$ biểu thức chỉ được chứa các phép toán số học cơ bản $\{+, -, \times, \div\}$ và các số thực có độ chính xác hữu hạn (finite precision)
 
 Loại trừ: Mọi hàm siêu việt đều không được phép. (Richardson's Theorem - 1968)
+
+**Trường hợp inner product:**
+
+Cho phép: $N$ biểu thức trong đó có các số thực có độ chính xác hữu hạn (finite precision) và [cấu trúc] như sau : 
+
+$$\langle u, v \rangle = \sum_{i=1}^{n} u_i v_i$$ (Inner Product).
+
+
+
 
 # The Unary vs. Binary Clues
 
