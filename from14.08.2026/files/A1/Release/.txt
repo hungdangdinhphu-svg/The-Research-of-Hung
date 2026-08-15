@@ -70,12 +70,11 @@ measured in a real-world environment using specific hardware—not in a computat
 (This is an example from the border)
 
 Unary system: represents a value $V$ as a string of $V$ characters; for example, $i + j \to \underbrace{11\dots 1}_{i+j \text{ characters}}$
-
 In this system, Comparability and Distance (A1, A2) become direct comparisons of length or shape, eliminating the need for mechanical addition—arithmetically, $\text{Cost}_{\text{computation}} \to O(1)$. However, $\text{Cost}_{\text{memory}} = O(V)$: for $C = 1000 \times 1000$, the Unary system requires a sequence of $10^6$ characters—entailing significant memory and unrolling costs.
-
 Scalar/Binary system: $\text{Cost}_{\text{memory}} \approx O(\log V)$ (approximately 20 bits for a value of $10^6$), but there is a $\text{Cost}_{\text{computation}}$ associated with the step of reducing the value to a scalar before comparison and distance determination are possible.
+Observation: These two systems lie at opposite ends of a computation-cost vs. memory-cost trade-off axis within a one-dimensional (unary) representation space.
 
-
+## 4. Statement of the Central Open Problem
 
 
 
