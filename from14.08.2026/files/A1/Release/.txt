@@ -91,6 +91,8 @@ Regarding Major Issue 2: techniques such as Locality-Sensitive Hashing, random p
 
 **4.2 Conclusion on the status of the problem**
 
+Based on points (i)–(iii), the central problem in Section 4 should be classified as an open problem: there is no general solution, nor a general counterexample or impossibility theorem, yet there is sufficient partial precedent (in exact geometric computation and in sketching/LSH/MIPS) to indicate that this direction is not trivially impossible. The difficulty varies between the two sub-cases: Major Problem 2 (inner product) possesses a more constrained structure and already has many efficient approximation solutions, making an exact solution more attainable; in contrast, Major Problem 1 (general arithmetic expressions) involves an expression space that is not constrained by a specific form.
+
 
 
 
