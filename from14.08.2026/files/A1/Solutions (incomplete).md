@@ -1,3 +1,5 @@
+https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A1/Solutions%20(incomplete).md
+
 # Structural Space Problem — Tổng hợp và trình bày giải pháp (Chưa hoàn thiện)
 
 Đáp lại Structural Space Problem — Phát biểu chặt chẽ.
