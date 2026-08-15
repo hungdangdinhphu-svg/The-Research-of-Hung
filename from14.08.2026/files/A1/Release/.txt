@@ -61,7 +61,13 @@ Open question: Given the stricter structural constraints (a fixed sum-of-product
 
 ## 3. Định nghĩa COST_ALL
 
+$$\text{COST\_ALL} = \text{Cost}_{\text{computation}} + \text{Cost}_{\text{memory/representation}} + \text{Cost}_{\text{khác}}$$
 
+measured in a real-world environment using specific hardware—not in a computational model that completely abstracts away the resources.
+
+**Illustration via the Unary vs. Binary example**
+
+(This is an example from the border)
 
 
 
