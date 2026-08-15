@@ -1,7 +1,7 @@
 # The-Research-of-Hung
 Hưng's Research
 
-The primary languages ​​I use in this document are Vietnamese & English.
+The primary languages ​​I use in this repo are Vietnamese & English.
 
 
 # Author
