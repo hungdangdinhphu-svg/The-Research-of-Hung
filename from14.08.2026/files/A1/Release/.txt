@@ -76,6 +76,7 @@ Observation: These two systems lie at opposite ends of a computation-cost vs. me
 
 ## 4. Statement of the Central Open Problem
 
+Does there exist a space $\mathbb{S}$ satisfying A1, A2, and A3 such that the COST_ALL (measured within a clearly defined computational model or physical device) required to extract the ordering relationship and distance between expressions in $\mathbb{S}$ is strictly less than the COST_ALL of the classical procedure (reducing to scalars and then comparing)—for (a) the class of general arithmetic expressions $\{+, -, \times, \div\}$ with finite precision (Major Problem 1), and (b) the class of inner product expressions $\langle u, v \rangle$ (Major Problem 2)?
 
 
 
