@@ -51,6 +51,14 @@ Open question: Does there exist a system $\mathbb{S}$—along with algorithms to
 
 **Major Issue 2 — The Inner Product Case**
 
+Given: $N$ expressions of a specific (non-arbitrary) form:
+
+$$\langle u, v \rangle = \sum_{i=1}^n u_i v_i$$
+
+where $u_i$ and $v_i$ are finite-precision real numbers.
+
+Open question: Given the stricter structural constraints (a fixed sum-of-products form rather than an arbitrary expression), are problems A1–A3 easier to solve than Major Problem 1? In other words, does the specific sum-of-products structure allow for a feasible $\mathbb{S}$ that might not exist in the general case?
+
 
 
 
