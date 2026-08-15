@@ -81,7 +81,15 @@ Does there exist a space $\mathbb{S}$ satisfying A1, A2, and A3 such that the CO
 **4.1 Why this is an open problem—not an impossibility**
 
 (i) There is no proof of general impossibility. No theorem—including Richardson’s Theorem, which merely excludes transcendental functions from the scope of the problem—demonstrates the non-existence of an $\mathbb{S}$ satisfying A1–A3 with a COST_ALL lower than the baseline.
+Richardson’s Theorem limits the scope of the problem (excluding transcendental functions to preserve decidability) but does not limit the existence of $\mathbb{S}$ within the remaining scope.
 
+**(ii) There is partial precedent—evidence indicating that the non-trivial problem is not impossible:**
+
+Regarding Major Issue 1: techniques for exact or certified geometric predicate evaluation (such as interval arithmetic and adaptive-precision arithmetic—exemplified by the work of Shewchuk and Yap in computational geometry) achieve requirement A1 (determining the sign or order of an expression) at a lower average cost than fully reducing the expression to an exact scalar value, although these techniques do not necessarily satisfy all three axioms (A1–A3) in every case.
+Regarding Major Issue 2: techniques such as Locality-Sensitive Hashing, random projection (Johnson-Lindenstrauss lemma), and Maximum Inner Product Search (MIPS) achieve approximations of A1/A2 for the inner product problem, with a COST_ALL lower than the baseline across various real-world data scenarios. However, as these are probabilistic or approximate solutions that do not satisfy A3 (requiring an exact total order without error), the question of whether an exact (non-approximate) solution exists remains open.
+**(iii) The Unary/Binary example merely illustrates a known two-dimensional trade-off; it neither proves nor disproves the existence of the multi-dimensional intersection point sought by the central problem.** Extending the concept from a one-dimensional trade-off (unary versus binary operations on natural numbers) to a multi-dimensional structural space—generalized for arithmetic expressions or inner products—constitutes the unresolved core of Major Problems 1 and 2.
+
+**4.2 Conclusion on the status of the problem**
 
 
 
