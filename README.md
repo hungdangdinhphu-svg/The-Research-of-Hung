@@ -13,6 +13,7 @@ The primary languages ​​I use in this repo are Vietnamese & English.
 
 .txt : https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A1/Release/.txt
 
+https://zenodo.org/records/21950881
 
 # Author
 
