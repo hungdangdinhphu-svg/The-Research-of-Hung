@@ -17,7 +17,7 @@ This is not a proposal to eliminate computation. The goal is to redefine the con
 
 **Axiom A1 — Comparability**
 
-There exists a relational operator $\preceq_{\mathbb{S}}$, defined directly on the structure (graph/syntax tree) of two elements $A, B \in \mathbb{S}$, such that:
+There exists a relational operator $\preceq_{\mathbb{S}}$, defined directly on the structure of two elements $A, B \in \mathbb{S}$, such that:
 
 $$\preceq_{\mathbb{S}} (A, B) \iff \operatorname{eval}(A) \le \operatorname{eval}(B)$$
 
@@ -29,7 +29,7 @@ There exists a function
 
 $$d_{\mathbb{S}} : \mathbb{S} \times \mathbb{S} \to \mathbb{R}_{\ge 0}$$
 
-(or an equivalent ordering structure), defined directly on the expression graph, such that $d_{\mathbb{S}}(A, B)$ accurately reflects the difference $\vert{}\operatorname{eval}(A) - \operatorname{eval}(B)\vert{}$ (or a monotonic transformation thereof) without requiring the full computation of $\operatorname{eval}(A)$ and $\operatorname{eval}(B)$.
+(or an equivalent ordering structure), defined directly on the expression, such that $d_{\mathbb{S}}(A, B)$ accurately reflects the difference $\vert{}\operatorname{eval}(A) - \operatorname{eval}(B)\vert{}$ (or a monotonic transformation thereof) without requiring the full computation of $\operatorname{eval}(A)$ and $\operatorname{eval}(B)$.
 
 **Axiom A3 — Total Order: sufficiently strong, yet without inheriting the costs associated with $\mathbb{R}$.**
 
