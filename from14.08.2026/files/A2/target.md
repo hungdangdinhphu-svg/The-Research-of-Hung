@@ -1,0 +1,1 @@
+Dựa trên A1 Project. Dự kiến thêm "References", "Appendix", và làm cho ngôn từ, mọi từ ngữ được "định nghĩa lại" chặt chẽ ở Appendix. Thêm các phân tích toán học/lý thuyết thông tin/khoa học máy tính chi tiết vào. 
