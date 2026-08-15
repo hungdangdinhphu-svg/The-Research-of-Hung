@@ -7,7 +7,11 @@ The primary languages ​​I use in this repo are Vietnamese & English.
 
 # Access
 
-Problem A1 : https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A1/Structural_Space_Problem.pdf
+**Comparing and Totally Ordering Mathematical Expressions: Are traditional processing methods still suitable today?**
+
+.pdf : https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A1/Structural_Space_Problem.pdf
+
+.txt : https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A1/Release/.txt
 
 
 # Author
