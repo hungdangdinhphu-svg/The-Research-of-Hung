@@ -59,7 +59,7 @@ where $u_i$ and $v_i$ are finite-precision real numbers.
 
 Open question: Given the stricter structural constraints (a fixed sum-of-products form rather than an arbitrary expression), are problems A1–A3 easier to solve than Major Problem 1? In other words, does the specific sum-of-products structure allow for a feasible $\mathbb{S}$ that might not exist in the general case?
 
-
+## 3. Định nghĩa COST_ALL
 
 
 
