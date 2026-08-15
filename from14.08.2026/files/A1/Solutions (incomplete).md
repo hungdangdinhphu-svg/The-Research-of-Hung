@@ -91,14 +91,58 @@ Chứng minh. Xét bước cuối của phép tính x_n = a + 1/x_{n−1}: vì x
 
 **3. Vấn đề lớn 2 — trường hợp Inner Product**
 
+**3.1 Chiều tồn tại: Error-Free Transformations**
+
+Với ⟨u,v⟩ = Σᵢ uᵢvᵢ, kỹ thuật tương ứng với 𝕊_AP là các thuật toán tổng/tích trong chính xác bù (compensated summation qua error-free transformations — TwoSum/TwoProduct của Ogita, Rump, Oishi 2005; phân tích sai số theo số điều kiện của Rump 2011). Đại lượng trung tâm là số điều kiện
+
+cond(u,v) := 2·Σᵢ|uᵢvᵢ| / |Σᵢ uᵢvᵢ|
+
+**Định lý 3 (Tồn tại, generic-case, Problem 2).** Thuật toán compensated dot-product (Ogita–Rump–Oishi 2005), chạy ở độ chính xác làm việc cố định p₀ (không phụ thuộc k), tính ⟨u,v⟩ với sai số tương đối như thể được tính ở K·p₀-bit precision, với chi phí O(n) phép toán p₀-bit — miễn cond(u,v) < 2^{K·p₀} (kết quả đã công bố, không phải claim mới của tài liệu này). Điều này cho một 𝕊 thỏa A1–A3 cho Vấn đề lớn 2 với COST_ALL = O(n·p₀) trên tập "generic" {(u,v) : cond(u,v) < 2^{Kp₀}} — cùng dạng tồn tại như Định lý 1, và cùng độc lập với k khi k → ∞.
+
+(Đây không phải một chứng minh mới — đây là việc nhận diện chính xác rằng kết quả đã có của Ogita–Rump–Oishi/Rump chính là một minh chứng tồn tại cho A1–A3 của Vấn đề lớn 2, theo đúng khuôn khổ tiên đề của tài liệu gốc)
+
+**3.2 Chiều bất khả thi worst-case**
+
+**Định lý 4 (Bất khả thi worst-case, Problem 2).** Với mọi n, k, tồn tại (u,v), (u',v') ∈ (𝔽_k)ⁿ × (𝔽_k)ⁿ với cond(u,v) = 2^{Ω(k)} (cấu trúc hủy triệt để — catastrophic cancellation, ví dụ chuẩn: chọn n=3, u=(1,−1,ε), v=(1,1,1) cho ⟨u,v⟩=ε với ε là số k-bit tùy ý nhỏ tùy ý, tổng quát hóa lên n chiều bằng cách thêm các cặp (M,−M) triệt tiêu để nâng cond lên tùy ý mà không đổi kết quả), sao cho bất kỳ thuật toán chứng nhận-số học đúng đắn nào cũng cần độ chính xác làm việc p = Ω(k) — khớp bậc với baseline cho instance này (theo lập luận sai số làm tròn tương tự Định lý 2, áp dụng trực tiếp cho phép trừ triệt tiêu ⟨u,v⟩=ε: sai số làm tròn tuyệt đối của việc cộng các số hạng cỡ M ở p-bit là Θ(M·2^{−p}), cần nhỏ hơn |ε|=2^{−k}·M để chứng nhận dấu, cho p=Ω(k)).
+
+Chứng minh. Xem phần diễn giải trong phát biểu định lý; đây là dạng rút gọn trực tiếp của lập luận sai số tuyệt đối/tương đối chuẩn trong phân tích số (Higham, Accuracy and Stability of Numerical Algorithms), áp dụng cho một cấu trúc hủy hai số hạng cỡ M xuống còn phần dư 2^{−k}M — không cần đến cấu trúc continuant của Định lý 2 vì ở đây "độ khó" chỉ cần đến từ k (độ chính xác toán hạng), không cần từ n (số chiều). ∎
+
+**Nhận xét (mức độ tổng quát của Định lý 4 so với Định lý 2):** Định lý 4, khác với Định lý 2, chỉ dùng được cấu trúc hủy triệt để bằng k-bit (không khai thác được số chiều n để đẩy lũy thừa lên nk như continuant) — vì bản thân inner-product KHÔNG có phép chia, nên không dựng được continuant bên trong nó một cách trực tiếp. Việc liệu có tồn tại một họ instance của Vấn đề lớn 2 buộc p = Ω(nk) (thay vì chỉ Ω(k)) hay không — tôi để đây như một câu hỏi phụ còn mở, không khẳng định đã chứng minh (xem Mục 6). Đây là một điểm khác biệt thực sự, có thể chứng minh, giữa hai bài toán.
+
+**3.3 Vấn đề lớn 2 có "dễ hơn" Vấn đề lớn 1 không?**
+
+Câu hỏi mở phụ này (Mục 2, bản gốc) nay có câu trả lời có sắc thái, không phải một chữ "có"/"không" đơn giản:
+
+Trong chế độ exact/worst-case: KHÔNG có tách biệt đã chứng minh — cả hai đều đụng rào cản Ω(k) từ hiện tượng hủy/gần-hòa (cancellation/near-tie); Vấn đề lớn 1 còn đụng rào cản mạnh hơn Ω(nk) nhờ continuant. Việc Vấn đề lớn 2 có đụng được rào cản Ω(nk) tương tự hay dừng lại ở Ω(k) là câu hỏi phụ còn mở nêu ở 3.2 — nhưng theo bằng chứng hiện có, Vấn đề lớn 2 không cho thấy khó hơn, và có thể là dễ hơn theo nghĩa hẹp này (rào cản yếu hơn).
+
+Trong chế độ xấp xỉ (nới lỏng A3 để cho phép sai số (1±δ)): CÓ — tách biệt thực sự và đã chứng minh trong tài liệu đã dẫn: bổ đề Johnson–Lindenstrauss (Johnson & Lindenstrauss 1984) và các kỹ thuật LSH/MIPS khai thác cấu trúc song tuyến tính (bilinear)/Euclid của inner product để đạt xấp xỉ với chi phí không phụ thuộc n (hoặc phụ thuộc log n) — khả năng này dựa trên cấu trúc hình học cụ thể của tích trong, và không có phép dựng tương tự đã biết cho biểu thức {+,−,×,÷} tùy ý (không có phép chiếu ngẫu nhiên nào được biết là bảo toàn giá trị gần đúng của một cây biểu thức tùy ý với ít bit hơn việc tính nó). Đây là nhận định, không phải định lý bất khả thi đã chứng minh cho chiều "không tồn tại kỹ thuật tương tự cho Vấn đề lớn 1" — bản thân sự vắng mặt của một kỹ thuật không phải là bằng chứng nó không tồn tại. Ghi rõ ở Mục 6 như một khoảng trống thật sự.
+
+**Kết luận 3.3:** Cấu trúc sum-of-products không phá được rào cản exact/worst-case (không có bằng chứng nó dễ hơn ở đó), nhưng có mở ra một chế độ xấp xỉ hiệu quả không có đối trọng đã biết ở Vấn đề lớn 1 — đây là câu trả lời đầy đủ và trung thực cho câu hỏi phụ của bản gốc, thay vì một phán quyết một chiều.
+
+**4. Trả lời Bài toán Trung tâm (Mục 4, bản gốc)**
+
+"Tồn tại hay không một không gian 𝕊 thỏa A1, A2, A3, sao cho COST_ALL... nhỏ hơn thực sự COST_ALL của quy trình cổ điển... cho (a) Vấn đề lớn 1, và (b) Vấn đề lớn 2?"
+
+Trả lời: Câu hỏi như phát biểu nguyên văn không có một câu trả lời có/không duy nhất vì nó chứa một lượng từ ẩn (Mục 1). Sau khi tường minh hóa lượng từ đó, câu trả lời đầy đủ, chứng minh được, là:
 
 
+| | Vấn đề lớn 1 (tổng quát) | Vấn đề lớn 2 (inner product) |
+|---|---|---|
+| **(G) generic-case, exact** | **CÓ** — 𝕊_AP, Định lý 1 | **CÓ** — compensated dot product, Định lý 3 |
+| **(W) worst-case, exact** | **KHÔNG** (trong lớp thuật toán chứng nhận-số học) — Định lý 2 | **KHÔNG** (cùng lớp; rào cản có thể yếu hơn — Định lý 4, Mục 3.2) |
+| **(A) approximate, mọi trường hợp** | Chưa có kỹ thuật đã biết đạt cost thấp hơn baseline một cách tổng quát | **CÓ** — LSH/MIPS/JL (đã có trong văn liệu, không phải kết quả mới) |
 
+**5. Trả lời câu hỏi gốc (Câu hỏi 3, Mục 0 của bản gốc)**
 
+"Bước trung gian 'suy ra giá trị vô hướng' có phải là con đường bắt buộc về mặt bản thể toán học... hay tồn tại một không gian toán học khác cho phép trích xuất quan hệ đó trực tiếp từ cấu trúc biểu thức, bỏ qua một phần hoặc toàn bộ bước suy diễn vô hướng?"
 
+Trả lời: Cả hai khả năng đều đúng, tùy theo instance, và điều này bây giờ được lượng hóa chính xác thay vì chỉ nói định tính:
 
+Với phần lớn các trường hợp thực tế (generic, theo nghĩa Định lý 1/3): việc suy ra giá trị vô hướng không bắt buộc — 𝕊_AP và compensated dot product trích xuất quan hệ thứ tự/khoảng cách trực tiếp từ cấu trúc (qua lan truyền cận sai số theo cây), với chi phí thấp hơn hẳn, mà không rút gọn eval(A), eval(B) một cách tường minh, đầy đủ.
 
+Với các trường hợp đối kháng (near-tie theo nghĩa Định lý 2/4 — điều mà bản gốc gọi trực giác là "hai đầu đối lập" ở ví dụ Unary/Binary, Mục 3 bản gốc): việc suy ra giá trị (đủ bit để phân biệt) là bắt buộc về mặt bản thể — không có cấu trúc nào trên cây biểu thức, dù tinh vi tới đâu (trong lớp thuật toán chứng nhận-số học), có thể tránh việc "nhìn thấy" đủ Θ(nk) bit thông tin ẩn trong hằng số đầu vào, vì bản thân khoảng cách cần phân biệt bé tới mức đó.
 
+Ví dụ Unary/Binary của bản gốc (Mục 3) hóa ra không phải chỉ là một minh họa trực giác không liên quan như bản gốc tự đánh giá thận trọng ở Mục 4.1(iii) — nó là hiện thân một chiều của đúng cùng một đánh đổi mà Định lý 1–2 chứng minh tổng quát: biểu diễn "structure-preserving" (Unary; ở đây là 𝕊_AP tại p₀ thấp) rẻ về Cost_computation nhưng có thể tốn theo một trục khác (Unary: Cost_memory; 𝕊_AP: buộc phải escalate tới Θ(nk) trên instance khó) — và bản gốc đã đúng khi thận trọng rằng ví dụ 1 chiều đó không TỰ NÓ chứng minh gì cho không gian nhiều chiều; Định lý 1–2 ở đây chính là việc lấp khoảng trống đó bằng một chứng minh, trong không gian biểu thức n-chiều tổng quát.
 
 
 
