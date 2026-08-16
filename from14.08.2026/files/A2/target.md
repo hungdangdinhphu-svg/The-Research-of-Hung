@@ -8,7 +8,7 @@ Phân tích rằng Major 1 và Major 2 thì cái Major 2 dễ hơn ở đâu.
 
 Thêm phần "Experiments". Tạo một bộ dữ liệu (benchmark) gồm N cặp biểu thức (với N lớn), sau đó thiết lập ra khoảng baseline (chặt chẽ với Classical Baseline), với mô tả kỹ càng về "môi trường máy tính".
 
-Viết lại phần "khoảng cách", R, Total Order, liệu có thực sự cần R cho những ứng dụng hiện nay (gần như toàn bộ)?
+Viết lại phần "khoảng cách", R, Total Order, liệu có thực sự cần R cho những ứng dụng hiện nay (gần như toàn bộ, tức là ngữ nghĩa của R so với ngữ nghĩa của ta gần như không khác gì, chứ không đơn thuần là có nhiều ứng dụng không cần R trực tiếp)?
 
 
 
