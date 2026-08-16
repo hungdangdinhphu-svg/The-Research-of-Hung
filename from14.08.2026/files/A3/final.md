@@ -8,9 +8,9 @@ Cho $E = \{e_1, e_2, \dots, e_N\}$ là một tập hợp gồm $N$ biểu thức
 
 3. Tính hữu hạn và Khả thi tính toán: Mỗi biểu thức $e_i \in E$ có độ dài chuỗi (chuỗi ký tự biểu diễn) hữu hạn và độ phức tạp thời gian định trị (evaluation time complexity) nằm trong giới hạn khả thi của hệ thống tính toán.
 
-Chi phí để tính toán và xử lý toàn bộ tập $E$ được định nghĩa là $COST\_ALL$, với:
+Chi phí để tính toán và xử lý toàn bộ tập $E$ được định nghĩa là $COST_ALL$, với:
 
-$$COST\_ALL = Cost_{computation} + Cost_{memory} + Cost_{etc}$$
+$$COST_ALL = Cost_{computation} + Cost_{memory} + Cost_{etc}$$
 
 
 
