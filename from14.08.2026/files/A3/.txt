@@ -22,3 +22,7 @@ Và khi I_* ở trong môi trường *, thì sẽ tốn chi phí COST_ALL để 
 
 
 Nhánh toán học này tập trung vào việc nghiên cứu cách để một tập hợp thể loại I bất kỳ hoặc có ràng buộc có thể sinh ra môi trường * tổng quát mà chi phí COST_ALL là cực tiểu hoặc tối ưu. 
+
+Bằng cách :
+
+I_* thực chất là input nhưng có thể được xem là một dạng môi trường, khi môi trường I_* biến đổi cùng môi trường *, chúng tự tạo ra một môi trường mới mà chi phí COST_ALL là cực tiểu hoặc tối ưu. 
