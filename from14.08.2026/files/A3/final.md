@@ -21,7 +21,7 @@ Thực thi phép ánh xạ định trị tập biểu thức $E$ thành một ve
 
 Chi phí thực thi: Tiêu tốn toàn bộ chi phí $COST\_ALL$.
 
-Tôi gọi đây là **"quy trình 2"** :
+Bài toán là làm sao cho quy trình bên dưới khả thi :
 
 Giả định tập $E$ đã được nội hàm hóa (embedded) trong một không gian trạng thái $S$.
 
