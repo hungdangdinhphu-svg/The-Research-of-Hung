@@ -12,7 +12,7 @@ Viết lại phần "khoảng cách", R, Total Order, liệu có thực sự c�
 
 Avenues of Attack: Đưa ra dự đoán những nhánh toán học thuần túy có tiềm năng, nhưng cũng cảnh báo về việc có thể đòi hỏi nhiều nỗ lực mới mẻ.
 
-
+Thêm Introduction.
 
 
 
