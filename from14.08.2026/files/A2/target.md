@@ -7,3 +7,26 @@ Về phần COST_ALL, đưa ra một phân khúc mô hình chi phí cụ thể t
 Phân tích rằng Major 1 và Major 2 thì cái Major 2 dễ hơn ở đâu.
 
 Thêm phần "Experiments". Tạo một bộ dữ liệu (benchmark) gồm N cặp biểu thức (với N lớn), sau đó thiết lập ra khoảng baseline (chặt chẽ với Classical Baseline), với mô tả kỹ càng về "môi trường máy tính".
+
+Viết lại phần "khoảng cách", R, Total Order, liệu có thực sự cần R cho những ứng dụng hiện nay (gần như toàn bộ)?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
