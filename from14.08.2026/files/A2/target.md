@@ -10,7 +10,7 @@ Thêm phần "Experiments". Tạo một bộ dữ liệu (benchmark) gồm N c�
 
 Viết lại phần "khoảng cách", R, Total Order, liệu có thực sự cần R cho những ứng dụng hiện nay (gần như toàn bộ, tức là ngữ nghĩa của R so với ngữ nghĩa của ta gần như không khác gì, chứ không đơn thuần là có nhiều ứng dụng không cần R trực tiếp)?
 
-
+Avenues of Attack: Đưa ra dự đoán những nhánh toán học thuần túy có tiềm năng.
 
 
 
