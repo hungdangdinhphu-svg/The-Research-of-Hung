@@ -31,6 +31,8 @@ Tính chất: Tập thông tin $I$ bảo toàn cấu trúc và đẳng cấu th�
 
 Chi phí thực thi: $COST_{S} \ll COST\_ALL$ (Chi phí trích xuất nhỏ hơn biên độ rất lớn so với việc tính toán từ đầu).
 
+Chúng phải chấp nhận làm việc trực tiếp trên biểu diễn trạng thái $S$ (nơi các phép toán tiếp theo được thực hiện trực tiếp trên không gian mã hóa/trạng thái mà không bao giờ cần giải mã).
+
 Hệ quả:
 
 Tập thông tin $I$ trích xuất từ $S$ đạt mức tương đương chức năng (functional equivalence) hoàn toàn với tập vô hướng $V$. Do đó, trong mọi kiến trúc hệ thống, thuật toán hay ứng dụng kỹ thuật phần mềm thuần túy, $I$ đóng vai trò là một sự thay thế trực tiếp (drop-in replacement) hoàn hảo cho $V$ mà không làm thay đổi tính đúng đắn của bài toán.
