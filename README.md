@@ -9,7 +9,11 @@ The primary languages ​​I use in this repo are Vietnamese & English.
 
 **Comparing and Totally Ordering Mathematical Expressions: Are traditional processing methods still suitable today?** (Position Paper and Open Problem Proposal)
 
-Version 0.2 : https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A2/Comparing_and_Totally_Ordering_Mathematical_Expressions%20(3).pdf
+Version 0.2 : 
+
+https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A2/Comparing_and_Totally_Ordering_Mathematical_Expressions%20(3).pdf
+
+https://zenodo.org/records/21960939
 
 Version 0.1 : https://zenodo.org/records/21950881
 
