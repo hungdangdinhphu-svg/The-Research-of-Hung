@@ -1,1 +1,49 @@
+# Comparing and Totally Ordering Mathematical Expressions: Are traditional processing methods still suitable today?
+
+Hung Dinh Phu Dang
+
+## Abstract 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
