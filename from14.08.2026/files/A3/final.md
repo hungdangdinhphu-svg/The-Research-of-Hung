@@ -1,18 +1,6 @@
-# Comparing and Totally Ordering Mathematical Expressions: Are traditional processing methods still suitable today?
+## Khởi tạo
 
-Hung Dinh Phu Dang
-
-## Abstract 
-
-
-
-
-
-
-
-
-
-
+Cho $E = \{e_1, e_2, \dots, e_N\}$ là một tập hợp gồm $N$ biểu thức. Tập $E$ phải thỏa mãn các điều kiện tiên quyết sau:
 
 
 
