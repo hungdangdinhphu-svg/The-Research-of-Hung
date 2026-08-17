@@ -10,4 +10,4 @@ $\star_{\alpha, *}$ là một hình học / cấu trúc, nhiều $\star$ có th�
 
 Công thức $F$ là cách để đo chi phí $\text{COST}$.
 
-Khi $i_j^*$ đi vào và nằm trong $O_\beta$, nó sẽ tự động được xem là đầu ra $iO_j^*$. Với chi phí để thực hiện toàn bộ điều này trên máy tính là $\text{COST\_ALL}$. Chi phí phù hợp nhất, hay thấp nhất.
+Khi $i_j^*$ đi vào và nằm trong $O_\beta$, nó sẽ tự động được xem là đầu ra $iO_j^*$. Với chi phí để thực hiện toàn bộ điều này trên máy tính là $\text{COST\_ALL}$. Chi phí phù hợp nhất, hay thấp nhất. (Trong hầu hết các I_j')
