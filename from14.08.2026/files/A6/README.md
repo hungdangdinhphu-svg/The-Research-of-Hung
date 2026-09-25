@@ -20,4 +20,3 @@ Mấu chốt, "khoảng trắng (WHITE)" dựa trên những **"tài nguyên"** 
 
 # Definition:
 
-Wait.
