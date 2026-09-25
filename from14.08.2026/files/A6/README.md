@@ -11,3 +11,5 @@ Khi "The entire space" muốn đạt được thành phần Result (**đạt đ�
 Ngược lại cốt lõi với "The entire space'", vốn không bị chặn khi muốn đạt được thành phần Result tương đương.
 
 Mấu chốt, khoảng trắng (WHITE) dựa trên những **tài nguyên** hoàn toàn có sẵn và **thoải mái**.
+
+**Tóm tắt vấn đề và phát biểu:** Một nhánh nghiên cứu (gần như chắc chắn chưa từng xuất hiện, vì vấn đề này chưa được giải quyết triệt để) giải quyết **tốt** điều này.
