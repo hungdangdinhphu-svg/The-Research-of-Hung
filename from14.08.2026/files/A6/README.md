@@ -16,7 +16,7 @@ Ngược lại cốt lõi với "The entire space'", vốn không bị chặn kh
 
 Mấu chốt, "khoảng trắng (WHITE)" dựa trên những **"tài nguyên"** hoàn toàn có sẵn và **"thoải mái"**.
 
-**Tóm tắt vấn đề và phát biểu:** Một nhánh nghiên cứu (gần như chắc chắn chưa từng xuất hiện, vì vấn đề này chưa được giải quyết triệt để) giải quyết **"tốt"** điều này.
+**Tóm tắt vấn đề và phát biểu:** Một nhánh nghiên cứu giải quyết **"tốt"** điều này.
 
 # Def.
 
