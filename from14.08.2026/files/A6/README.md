@@ -71,3 +71,5 @@ Def 9 (Phát biểu định hướng nghiên cứu).
 Tồn tại (được kỳ vọng/giả định, không phải đã chứng minh) một hướng nghiên cứu M sao cho: M "giải quyết tốt" bài toán 𝒮 → R vốn bị chặn theo Def 6/7 — với "tốt" giữ nguyên là primitive term (Def 0), chưa được ấn định giá trị hình thức trong tài liệu này.
 → Đúng nguyên văn: "Một nhánh nghiên cứu (gần như chắc chắn chưa từng xuất hiện, vì vấn đề này chưa được giải quyết triệt để) giải quyết 'tốt' điều này."
 (Tính "gần như chắc chắn chưa từng xuất hiện" và "chưa được giải quyết triệt để" được giữ nguyên như mệnh đề dự đoán/meta, không được hình thức hóa thành tiên đề, vì bản chất của nó là phát biểu về trạng thái tri thức hiện tại, không phải phát biểu về cấu trúc 𝒮/𝒮′.)
+
+**Liên quan:** https://vi.wikipedia.org/wiki/Tri%E1%BA%BFt_h%E1%BB%8Dc_to%C3%A1n_h%E1%BB%8Dc
