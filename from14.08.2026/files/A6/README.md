@@ -6,7 +6,7 @@ Với Result Area là không gian thỏa: Rằng không gian "The entire space" 
 "The entire space" và "The entire space'", thì mỗi 1 không gian (trong 2 không gian vừa nêu) đều chứa những Axioms riêng biệt. Những Axioms được xem là đúng đắn trong mỗi không gian riêng biệt (Không gian này có thể True, không gian kia có thể False, hoặc Etc) hoặc tất cả những điều khác đều chỉ là Hệ Quả của các Axioms đó.
 
 
-Khi "The entire space" muốn đạt được thành phần Result (**đạt được khác** với **có**), nó bị chặn bởi Logical Error. Logical Error chặn bởi vì nó mâu thuẫn với chính các Axioms của không gian đó.
+Khi "The entire space" muốn đạt được thành phần Result (**đạt được** khác với **có**), nó bị chặn bởi Logical Error. Logical Error chặn bởi vì nó mâu thuẫn với chính các Axioms của không gian đó.
 
 Ngược lại cốt lõi với "The entire space'", vốn không bị chặn khi muốn đạt được thành phần Result tương đương.
 
