@@ -21,7 +21,7 @@ $$J_{i2}=(A_2,D_2,C_2),\quad \vert{}C_2\vert{}=k,\ \vert{}D_2\vert{}=k',\ \vert{
 ### 1.2. Information Processing Resources (IPR)
 Cho $O$ là tập phép toán xử lý thông tin. Cho $R$ là tập ràng buộc tài nguyên. 
 
-Khi đó:$$IPR=\{o\in O\mid R(o)\}.$$
+Khi đó: $$IPR=\{o\in O\mid R(o)\}.$$
 
 ### 1.3. Target
 $$Target=(Reslt,Res_1,Res_2)$$
