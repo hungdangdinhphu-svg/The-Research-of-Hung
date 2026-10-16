@@ -10,7 +10,7 @@ Trong đó, $\text{Trace} = (s_0, s_1, \dots, s_n)$ là quỹ đạo thực thi 
 
 và Mục tiêu Tài nguyên ($\mathcal{G}_{\text{res}}$).
 
-3. Res_i là kết quả đầu ra; Với mọi Res_i đều có thể chuyển về Reslt
+3. Res_i là kết quả đầu ra; Với mọi Res_i đều có thể chuyển về Reslt chính xác.
 
 # Detail
 
