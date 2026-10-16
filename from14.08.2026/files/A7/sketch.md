@@ -20,7 +20,7 @@ Coi J_i1 bao gồm n consequences, n' definitions, n'' axioms.
 
 Và j_i2 bao gồm k consequences, k' definitions, k'' axioms.
 
-
+Hệ 
 
 
 
