@@ -9,8 +9,7 @@ The primary languages ​​I use in this repo are Vietnamese & English. Hy vọ
 
 **Vấn đề chủ chốt:**
 
-https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A6/README.md
-
+https://github.com/hungdangdinhphu-svg/The-Research-of-Hung/blob/main/from14.08.2026/files/A7/sketch.md
 
 # Author
 
