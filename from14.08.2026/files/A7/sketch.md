@@ -6,7 +6,9 @@ IPR được định nghĩa hình thức thông qua hàm chi phí (cost function
 Trong đó, $\text{Trace} = (s_0, s_1, \dots, s_n)$ là quỹ đạo thực thi của hệ thống, và $k$ là số chiều tài nguyên xét đến (ex: $R$ = (Thời gian, Không gian, Năng lượng))
 
 
-2. Target tổng thể luôn bao gồm hai thành phần cấu thành chính: Mục tiêu Chức năng ($\mathcal{G}_{\text{func}}$) và Mục tiêu Tài nguyên ($\mathcal{G}_{\text{res}}$).
+2. Một Target tổng thể luôn bao gồm hai thành phần cấu thành chính: Mục tiêu Chức năng ($\mathcal{G}_{\text{func}}$)
+
+và Mục tiêu Tài nguyên ($\mathcal{G}_{\text{res}}$).$$\mathcal{T} = \mathcal{G}_{\text{func}} \land \mathcal{G}_{\text{res}}$$
 
 
 
