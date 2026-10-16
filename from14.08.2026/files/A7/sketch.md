@@ -1,6 +1,6 @@
 # Def.
 
-"Information Processing Resources" (IPR): Tập hợp các giới hạn và chi phí khi thực thi thông tin trên một hệ thống có hàm chuyển đổi trạng thái $s_{t+1} = \delta(s_t, \text{input})$.
+1. "Information Processing Resources" (IPR): Tập hợp các giới hạn và chi phí khi thực thi thông tin trên một hệ thống có hàm chuyển đổi trạng thái $s_{t+1} = \delta(s_t, \text{input})$.
 IPR được định nghĩa hình thức thông qua hàm chi phí (cost functional) $R$: $$R: \text{Trace} \to \mathbb{R}_{\ge 0}^k$$
 
 Trong đó, $\text{Trace} = (s_0, s_1, \dots, s_n)$ là quỹ đạo thực thi của hệ thống, và $k$ là số chiều tài nguyên xét đến (ex: $R$ = (Thời gian, Không gian, Năng lượng))
