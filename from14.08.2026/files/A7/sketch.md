@@ -13,7 +13,7 @@
 
 Coi hệ J_i1 bao gồm n consequences, n' definitions, n'' axioms.
 
-Và hệ j_i2 bao gồm k consequences, k' definitions, k'' axioms.
+Và hệ J_i2 bao gồm k consequences, k' definitions, k'' axioms.
 
 
 
