@@ -2,12 +2,11 @@
 
 1. "Information Processing Resources" (IPR): Tập hợp các thao tác xử lý thông tin hiện có.
 
-
-
 2. Một "Target" tổng thể là mục tiêu yêu cầu đạt được Reslt hay Res_1/Res_2 trong J_i1 hoặc J_i2.
 
-
 3. Reslt là một định lý đúng đắn trong các hệ cho phép định lý này đúng đắn.
+
+4. Cawpg là "conflicts arise when parsuing a goal".
 
 # Detail
 
