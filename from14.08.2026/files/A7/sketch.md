@@ -8,7 +8,7 @@ Trong đó, $\text{Trace} = (s_0, s_1, \dots, s_n)$ là quỹ đạo thực thi 
 
 2. Một Target tổng thể luôn bao gồm hai thành phần cấu thành chính: Mục tiêu Chức năng ($\mathcal{G}_{\text{func}}$)
 
-và Mục tiêu Tài nguyên ($\mathcal{G}_{\text{res}}$).$$\mathcal{T} = \mathcal{G}_{\text{func}} \land \mathcal{G}_{\text{res}}$$
+và Mục tiêu Tài nguyên ($\mathcal{G}_{\text{res}}$).
 
 
 
