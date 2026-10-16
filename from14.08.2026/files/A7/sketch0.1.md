@@ -1,3 +1,5 @@
+(16/10/2026 - DD/MM/YYYY)
+
 # Hệ hình thức, IPR, Target, Cawpg, và phép biến đổi T
 
 ## 1. Định nghĩa
