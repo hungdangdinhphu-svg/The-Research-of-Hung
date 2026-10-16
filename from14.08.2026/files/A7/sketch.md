@@ -1,5 +1,6 @@
-Với mọi từ ngữ có trong dấu ngoặc kép, nó có thể được hiểu theo nghĩa khác với định nghĩa thông thường, nhưng tính đúng đắn về mặt logic vẫn được đảm bảo.
+# Def.
 
+"Information Processing Resources": Viết tắt là IPR, quy định những 
 
 
 
