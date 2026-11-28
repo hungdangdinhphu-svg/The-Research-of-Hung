@@ -22,7 +22,7 @@ Với phát biểu "Trong vũ trụ $\mathcal{M}$ vận hành theo hệ tiên đ
 
 Ngôn ngữ tự nhiên bẻ gãy được phát biểu vì nó gặp vấn đề đóng về mặt ngữ nghĩa (semantically closed)
 
-Định lý Bất toàn Godel.
+Định lý Bất toàn Godel. Định lý Löwenheim–Skolem.
 
 https://chat.deepseek.com/share/0ouidlevp619t4lyfb ;
 
