@@ -14,3 +14,5 @@ $\Gamma$ (Hệ tiên đề & Luật suy diễn)
 
 $\mathcal{M}$ (Mô hình & Vũ trụ diễn ngôn $U$): Khóa chặt không gian đối tượng đang xét. Mọi lượng từ bắt buộc phải là lượng từ bị chặn ($\forall x \in U$, $\exists y \in U$), cấm viết $\forall x$ trôi nổi vô định
 
+Phân tầng Ngôn ngữ đối tượng vs. Siêu ngôn ngữ (Object vs. Meta-language): $\phi$ nằm ở tầng dưới (cái bị xét), còn ký hiệu $\models_{\sigma}$ ("được thỏa mãn dưới phép gán biến $\sigma$") nằm ở tầng trên.
+
