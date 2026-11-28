@@ -22,6 +22,8 @@ Với phát biểu "Trong vũ trụ $\mathcal{M}$ vận hành theo hệ tiên đ
 
 Ngôn ngữ tự nhiên bẻ gãy được phát biểu vì nó gặp vấn đề đóng về mặt ngữ nghĩa (semantically closed)
 
+Định lý Bất toàn Godel.
+
 https://chat.deepseek.com/share/0ouidlevp619t4lyfb ;
 
 ## Phần 1: Dẫn dắt bằng ngôn ngữ tự nhiên (nhưng chặt chẽ)
