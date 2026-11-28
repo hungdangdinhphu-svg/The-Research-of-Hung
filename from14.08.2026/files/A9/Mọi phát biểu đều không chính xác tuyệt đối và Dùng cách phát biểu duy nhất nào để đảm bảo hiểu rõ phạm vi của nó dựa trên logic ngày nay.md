@@ -17,3 +17,5 @@ $\mathcal{M}$ (Mô hình & Vũ trụ diễn ngôn $U$): Khóa chặt không gian
 Phân tầng Ngôn ngữ đối tượng vs. Siêu ngôn ngữ (Object vs. Meta-language): $\phi$ nằm ở tầng dưới (cái bị xét), còn ký hiệu $\models_{\sigma}$ ("được thỏa mãn dưới phép gán biến $\sigma$") nằm ở tầng trên.
 
 Với phát biểu "Trong vũ trụ $\mathcal{M}$ vận hành theo hệ tiên đề $\Gamma$ bằng ngôn ngữ $\mathcal{L}$, mệnh đề $\phi$ được thỏa mãn dưới phép gán $\sigma$". Lúc này, cái chính xác tuyệt đối không nằm ở bản thân $\phi$, mà nằm ở cấu trúc ràng buộc nối $(\mathcal{L}, \Gamma, \mathcal{M})$ với $\phi$.
+
+Ngôn ngữ tự nhiên vì nó gặp vấn đề đóng về mặt ngữ nghĩa (semantically closed)
